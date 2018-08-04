@@ -43,7 +43,7 @@ fit.
 ##### Naive LARS
 ​
 1. Standardize the predictors to have mean zero and unit norm. Start
-with the residual <img src="https://latex.codecogs.com/gif.latex?$r=y-\bar{y},&space;\beta_1,\beta_2,...&space;,\beta_p&space;=&space;0$" title="$r=y-\bar{y}, \beta_1,\beta_2,... ,\beta_p = 0$" />
+with the residual <img src="https://latex.codecogs.com/gif.latex?$r=y-\overline{y},&space;\beta_1,\beta_2,...&space;,\beta_p&space;=&space;0$" title="$r=y-\bar{y}, \beta_1,\beta_2,... ,\beta_p = 0$" />
 2. Find the predictor $x_j$ most correlated with $r$
 3. Move $\beta_j$ from 0 towards its least-squares coefficient $<x_j,r>$ until some
 other competitor $x_k$ has as much correlation with the current residual
